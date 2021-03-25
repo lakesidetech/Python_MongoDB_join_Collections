@@ -31,10 +31,16 @@ mydb=myclients.get_database('M_healths')
 ![image](https://user-images.githubusercontent.com/17750481/112548988-25aff500-8dce-11eb-82a9-576bebd6b6ac.png)
 # find a single record
 ![image](https://user-images.githubusercontent.com/17750481/112549105-542dd000-8dce-11eb-8e6a-c97d558507f9.png)
+# MongoDB Compass output
+![image](https://user-images.githubusercontent.com/17750481/112550350-47aa7700-8dd0-11eb-806e-84afa9b5277b.png)
+
 # aggregates - find average salary for the doctors
 ![image](https://user-images.githubusercontent.com/17750481/112549240-893a2280-8dce-11eb-88d6-a2b1ac63d482.png)
 # total salaries
 ![image](https://user-images.githubusercontent.com/17750481/112549332-aff85900-8dce-11eb-91bc-b85a49a4de88.png)
+# MongoDB Atlas output 
+![image](https://user-images.githubusercontent.com/17750481/112550507-87715e80-8dd0-11eb-8400-85c86cc4696a.png)
+
 
 
 
