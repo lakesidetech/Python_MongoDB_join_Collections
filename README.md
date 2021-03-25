@@ -5,5 +5,14 @@
 * install Python if needed
 * Install MongoDB Compass and Atlas
 * Test if you can see the DB in both Compass and Atlas
+* pip install pymongo
+* pip install DNSPYTHON
 * Import PyMongo
-*
+
+## #connect the heatlthy DB to localhost
+** myclients = pymongo.MongoClient('mongodb://localhost:27017/')
+** mydb = myclients['M_healths']
+## connect the heatlthy DB to MongoDB Atlas
+myclients = pymongo.MongoClient('mongodb+srv://ruth:joram%401934@cluster0.efu2u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+
+
