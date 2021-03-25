@@ -9,10 +9,10 @@
 * pip install DNSPYTHON
 * Import PyMongo
 
-## #connect the heatlthy DB to localhost
+## #connect the M_healths DB to localhost
 ** myclients = pymongo.MongoClient('mongodb://localhost:27017/')
 ** mydb = myclients['M_healths']
-## connect the heatlthy DB to MongoDB Atlas
+## connect the M_healths DB to MongoDB Atlas
 myclients = pymongo.MongoClient('mongodb+srv://ruth:joram%401934@cluster0.efu2u.mongodb.net/M_healths?retryWrites=true&w=majority')
 
 ## input hospital table
