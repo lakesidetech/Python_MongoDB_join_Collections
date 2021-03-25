@@ -13,6 +13,12 @@
 ** myclients = pymongo.MongoClient('mongodb://localhost:27017/')
 ** mydb = myclients['M_healths']
 ## connect the heatlthy DB to MongoDB Atlas
-myclients = pymongo.MongoClient('mongodb+srv://ruth:joram%401934@cluster0.efu2u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+myclients = pymongo.MongoClient('mongodb+srv://ruth:joram%401934@cluster0.efu2u.mongodb.net/M_healths?retryWrites=true&w=majority')
 
+## input hospital table
+mycol = mydb["Hospitals"]
+
+![image](https://user-images.githubusercontent.com/17750481/112547524-e97b9500-8dcb-11eb-8b49-9360ad3d3ad0.png)
+## input Doctors table
+![image](https://user-images.githubusercontent.com/17750481/112547681-2182d800-8dcc-11eb-8862-6e67fb106152.png)
 
